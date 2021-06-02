@@ -8,6 +8,7 @@ class MyClassTest(unittest.TestCase):
         self.my_class = MyClass()
 
     def tearDown(self):
+        # To be implemented if required
         pass
 
     def test_something(self):
