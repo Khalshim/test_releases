@@ -1,0 +1,29 @@
+@startuml
+
+class A {
+    att1 : dict
+    att2 : int
+    att3 : string
+
+    int method() : string
+    {static} make_purse()
+}
+
+class B
+
+class C
+
+abstract class ID {
+    att1 : A
+}
+
+class E
+
+class F
+
+A <-- B : do_something
+C <|-- ID
+E "1" *-- "*" F
+
+@enduml
+

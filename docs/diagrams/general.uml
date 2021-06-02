@@ -1,0 +1,20 @@
+@startuml
+
+package "core"
+package "model" #LightBlue
+package "client"
+package "server"
+
+database "db"
+storage "storage"
+
+core <.. model
+core <.. client
+core <.. server
+model <.. client
+model <.. server
+model <--> db
+model <--> storage
+
+@enduml
+
