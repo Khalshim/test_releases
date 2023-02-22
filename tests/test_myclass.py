@@ -1,6 +1,6 @@
 import unittest
 
-from white_app_python.my_class import MyClass
+from whiteapp_python.my_class import MyClass
 
 
 class MyClassTest(unittest.TestCase):
@@ -13,4 +13,4 @@ class MyClassTest(unittest.TestCase):
 
     def test_something(self):
         result = self.my_class.do()
-        self.assertEqual(result, "MyClass call to subcomponent : subcomponent called")
+        self.assertEqual(result, "MyClass call to component : component called")

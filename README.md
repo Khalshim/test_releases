@@ -1,15 +1,19 @@
 <!-- [![Development CI](https://github.com/Pytown-Citizen/pytown_model/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/Pytown-Citizen/pytown_model/actions/workflows/pythonapp.yml) -->
+
 ![Plaftorm](https://img.shields.io/badge/platform-Windows%2010-lightgrey?style=plastic)
 ![Python](https://img.shields.io/badge/python-3.7%20%7C%203.8-blue?style=plastic)
+
 <!-- ![License](https://img.shields.io/github/license/Pytown-Citizen/pytown_model?style=plastic) -->
 
 # White App Python
+
 ## Table of Contents
+
 1. [Introduction](#introduction)
-    - [Dependencies](#dependencies)
+   - [Dependencies](#dependencies)
 2. [Getting Started](#gettingstarted)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
 3. [Usage](#Usage)
 4. [Roadmap](#roadmap)
 5. [Contributing](#contributing)
@@ -17,19 +21,24 @@
 7. [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
+
 ## Introduction <a name="introduction"></a>
 
 Brief introduction
 
 ### Dependencies <a name="dependencies"></a>
-![white_app_python](https://img.shields.io/badge/dependency-0.0.1-blue?style=plastic)
+
+![whiteapp_python](https://img.shields.io/badge/dependency-0.0.1-blue?style=plastic)
 
 <!-- GETTING STARTED -->
+
 ## Getting Started <a name="gettingstarted"></a>
+
 ### Prerequisites <a name="prerequisites"></a>
 
-- At least python 3.7 is required.
+- At least python 3.11.0 is required.
 - Installing [pip](https://pypi.org/project/pip/) is highly recommanded as it will facilitate installation steps
+
 ### Installation <a name="installation"></a>
 
 - With pip
@@ -52,6 +61,7 @@ Brief introduction
     ```
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage <a name="usage"></a>
 
 pytown_model is used by pytown_client and pytown_server
@@ -63,11 +73,13 @@ pytown_model is used by pytown_client and pytown_server
 <!-- ![Architecture](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Pytown-Citizen/pytown_model/main/docs/diagrams/model.uml) -->
 
 <!-- ROADMAP -->
+
 ## Roadmap <a name="roadmap"></a>
 
 <!-- See the [open issues](https://github.com/Pytown-Citizen/pytown_model/issues) for a list of proposed features (and known issues). -->
 
 <!-- CONTRIBUTING -->
+
 ## Contributing <a name="contributing"></a>
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -79,7 +91,9 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 <!-- CONTACT -->
+
 ## Contact <a name="contact"></a>
 
 Mehdi Halitim - mhalitim@gmail.com
+
 <!-- Project Link: [https://github.com/Pytown-Citizen/pytown_model](https://github.com/Pytown-Citizen/pytown_model) -->

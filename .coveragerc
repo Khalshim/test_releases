@@ -1,7 +1,7 @@
 # .coveragerc to control coverage.py
 [run]
 branch = True
-source = white_app_python
+source = whiteapp_python
 # omit = bad_file.py
 
 [paths]
