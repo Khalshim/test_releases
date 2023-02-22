@@ -1,5 +1,25 @@
 [build-system]
 requires = ["setuptools>=42", "wheel", "setuptools_scm[toml]>=3.4"]
+build-backend = "setuptools.build_meta"
 
-[tool.setuptools_scm]
-write_to = "version.py"
+
+[project]
+name = "whiteapp_python"
+description = "whiteapp python"
+version = "0.0.0"
+# requires-python = ">=3.10.8"
+requires-python = ">=3.11.0"
+readme = "README.md"
+
+dependencies = [
+# Syntax for dependencies version
+#  "tomli",
+#  "tomli == 1.0.0",
+#  "tomli <= 1.0.0",
+# "tomli >= 1.0.0",
+]
+
+[project.optional-dependencies]
+# Can be installed with pip install .[ci]
+ci = ["black", "pylint", "coverage", "pytest", "flake8", "tox"]
+

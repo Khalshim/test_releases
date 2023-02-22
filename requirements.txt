@@ -1,1 +1,0 @@
-# pytown_core @ git+ssh://git@github.com/dependency.git@0.0.1
