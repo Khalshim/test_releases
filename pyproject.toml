@@ -23,3 +23,5 @@ dependencies = [
 # Can be installed with pip install .[ci]
 ci = ["pytest", "flake8", "black", "tox", "build", "coverage"]
 
+[tool.semantic_release]
+version_variable = "pyproject.toml:version"
